@@ -37,6 +37,7 @@ public static void main(String[] args) {
     System.exit(0);
    } 
    else{
+    scanner.nextLine();
     System.out.println("Jarvis: System Activited. Hello, Boss.");
 
     while (isSystemRunning) {
